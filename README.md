@@ -1,29 +1,31 @@
+# Internet
+
 # HTML
 
 # CSS
 
-# JS
+# JavaScript
 
-# ES6
+# Advanced JavaScript
 
-# GIT
+# Git
 
 # React
 
-# Tailwind
+# Tailwind CSS
 
-# Node Express
+# Node.js + Express
 
-# MongoDb
+# MongoDB
 
-# MERN
+# Full-Stack Concepts
 
-# TS
+# TypeScript
 
 # Next.js
 
-# Prisma
-
 # PostgreSQL
 
-# Shadcn
+# shadcn/ui
+
+# Testing + Deployment
