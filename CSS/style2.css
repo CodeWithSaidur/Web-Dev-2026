@@ -1,0 +1,35 @@
+* {
+  margin: 50px;
+  user-select: none;
+  cursor: progress;
+  /* border: 3px solid red; */
+}
+
+.p-1 { /* class='p-1' */
+  color: brown;
+  text-align: right;
+}
+
+.list-color {
+  background-color: blueviolet;
+}
+
+.p-2 {
+  background-color: black;
+  color: white;
+}
+
+#div-id-1 {  /*id='div-id-1' */
+  color: black;
+  background-color: blueviolet;
+}
+
+p,
+h1,
+div {
+  color: chartreuse !important;
+}
+
+p {
+  background-color: rgba(0, 255, 255, 0.356) !important;
+}
