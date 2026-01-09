@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            background-color: rgb(14, 10, 10);
+        }
+
+        .main-div {
+            border: 3px solid rgb(241, 133, 133);
+            height: 600px;
+            width: 1000px;
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 10vh;
+            margin-left: 10vh;
+
+            display: flex; /* to apply flex */
+            flex-direction: row; /* used to decide Direction - row or coll or rowreverse or colreverse*/
+            gap: 10px; 
+            flex-wrap: wrap; /* used contain childes in parent div */
+            overflow: hidden; 
+
+            justify-content: space-evenly;
+            align-items: start;
+
+            align-content: baseline;
+
+            /*
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            */
+
+        }
+
+        .children-1 {
+            background-color: aqua;
+            flex-grow: 1;
+
+        }
+
+        .child {
+            border: 3px solid rgb(196, 122, 122);
+            height: 100px;
+            width: 100px;
+            border-radius: 10px;
+            font-size: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='main-div'>
+        <div class='child children-1'>A</div>
+        <div class='child children-2'>B</div>
+        <div class='child children-3'>C</div>
+        <div class='child children-4'>D</div>
+        <div class='child children-5'>E</div>
+        <div class='child children-6'>F</div>
+
+    </div>
+
+</body>
+
+</html>
