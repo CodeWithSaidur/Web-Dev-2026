@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flex-Shrink Demo</title>
+    <style>
+        .container {
+            display: flex;
+            width: 400px;
+            /* fixed width to force shrinking */
+            border: 2px solid #333;
+        }
+
+        .item {
+            flex-basis: 500px;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .item1 {
+            background: #3498db;
+            flex-shrink: 2;
+        }
+
+        .item2 {
+            background: #e67e22;
+            flex-shrink: 3;
+        }
+
+        .item3 {
+            background: #2ecc71;
+            flex-shrink: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Flex-Shrink Example</h2>
+    <div class="container">
+        <div class="item item1">Shrink 1</div>
+        <div class="item item2">Shrink 2</div>
+        <div class="item item3">Shrink 0</div>
+    </div>
+</body>
+
+</html>
