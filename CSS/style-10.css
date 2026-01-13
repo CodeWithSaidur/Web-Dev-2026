@@ -1,0 +1,20 @@
+@media (max-width: 500px) {
+  h1 {
+    color: red;
+    font-size: x-small;
+  }
+}
+
+
+
+/* Mobile */
+@media (max-width: 640px) {}
+
+/* Tablet */
+@media (min-width: 768px) {}
+
+/* Laptop */
+@media (min-width: 1024px) {}
+
+/* Desktop */
+@media (min-width: 1280px) {}
