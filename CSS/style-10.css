@@ -1,20 +1,53 @@
-@media (max-width: 500px) {
+/* Mobile */
+@media (max-width: 640px) {
   h1 {
     color: red;
-    font-size: x-small;
+    font-size: 10px;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 3;
+    gap: 22px;
+  }
+
+  .divs {
+    border: 1px solid red;
   }
 }
 
-
-
-/* Mobile */
-@media (max-width: 640px) {}
-
 /* Tablet */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+  h1 {
+    color: rgb(26, 1, 1);
+    font-size: 20px;
+  }
+  .main {
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 6;
+    gap: 2px;
+  }
+
+  .divs {
+    border: 1px solid red;
+  }
+}
 
 /* Laptop */
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+  h1 {
+    color: rgb(146, 13, 13);
+    font-size: 30px;
+  }
+}
 
 /* Desktop */
-@media (min-width: 1280px) {}
+@media (min-width: 1280px) {
+  h1 {
+    color: rgb(175, 125, 125);
+    font-size: 50px;
+  }
+}
