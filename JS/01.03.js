@@ -35,7 +35,6 @@ let studentAge = 21
 let _name = 'Sahil'
 let $name = 'Motu'
 
-
 // non premitive data types or reference data types
 
 let student = ['Tanvir', 'Sahil', 'Motu', 'Patlu', 10] // array => object
