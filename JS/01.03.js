@@ -69,3 +69,25 @@ let tanvir = {
 }
 
 console.log(tanvir)
+
+// ------------------------- function --------------------
+
+if (1 == 2) {
+  console.log('yes')
+} else {
+  console.log('no')
+}
+
+function sayhii(o) {
+  return 'hello' + o + 'how can i help u'
+}
+
+console.log(sayhii('jubair'))
+
+function Add(a, b) {
+  return a + b
+}
+
+Add(1, 3)
+
+console.log(Add(10, 30))
