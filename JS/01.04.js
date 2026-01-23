@@ -41,3 +41,5 @@ let comp1 = 1
 let comp2 = '1'
 
 console.log(comp1 === comp2)
+
+
