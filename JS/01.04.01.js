@@ -36,3 +36,6 @@ console.log(typeof +{});
 // Ternary operator
 let old = 18
 console.log(old >= 14 ? "you can use mobile" : "you can't use mobile ");
+
+let a2 = null
+console.log(a2 ?? "name not found ");
