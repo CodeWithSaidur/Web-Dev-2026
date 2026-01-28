@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    let rows = 4;
+    for (let i = rows; i >= 1; i--) {
+        console.log("*".repeat(i));
+    }
+
+    let rows1 = 4;
+    for (let i = 1; i <= rows1; i++) {
+        let spaces = " ".repeat(rows1 - i);
+        let stars = "*".repeat(i);
+        console.log(spaces + stars);
+    }
+
+    let rows2 = 4;
+    for (let i = 1; i <= rows2; i++) {
+        let spaces = " ".repeat(rows2 - i);
+        let stars = "* ".repeat(i);
+        console.log(spaces + stars);
+    }
+
+    let rows3 = 4;
+    for (let i = 1; i <= rows3; i++) {
+        console.log(" ".repeat(rows3 - i) + "* ".repeat(i));
+    }
+
+    for (let i = rows3 - 1; i >= 1; i--) {
+        console.log(" ".repeat(rows3 - i) + "* ".repeat(i));
+    }
+
+</script>
+
+</html>

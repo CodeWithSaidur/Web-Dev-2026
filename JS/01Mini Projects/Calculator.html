@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="inputs">
+    <button onclick="addNumbers()">Calculate</button>
+    <button onclick="clearInput()">Clear</button>
+
+    <script>
+        function addNumbers() {
+            let expression = document.getElementById('inputs').value;
+            console.log(eval(expression));
+        }
+
+        function clearInput() {
+            document.getElementById('inputs').value = "";
+        }
+    </script>
+</body>
+
+</html>

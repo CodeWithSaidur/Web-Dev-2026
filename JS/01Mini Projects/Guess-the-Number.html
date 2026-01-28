@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id='Num'>
+    <button onclick='gas()'>Gas</button>
+    <button onclick='claer()'>Clear</button>
+    <h1 id='ans'></h1>
+</body>
+
+<script>
+    let com = Math.floor(Math.random() * 3 + 1)
+    console.log("Computer", com);
+
+    function gas() {
+        let n = document.getElementById("Num").value;
+        if (com == n) {
+            document.getElementById("ans").innerText = "WIN";
+            console.log("Win");
+        } else {
+            document.getElementById("ans").innerText = "Try Again!";
+        }
+        console.log("You", n);
+    }
+
+    function claer() {
+        document.getElementById("Num").value = "";
+    }
+
+</script>
+
+</html>
