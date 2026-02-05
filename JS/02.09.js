@@ -38,3 +38,33 @@ let arr3 = [10, 20, 30]
 arr3.splice(0, 1) // remoive selected elements change the main array
 
 console.log(arr3)
+
+
+// =============================
+
+let arr = [10, 11, 12, 13, 14, 15, 16, 17, 8]
+console.log(arr.slice(13, -1)) // return a new array Dn't mod main arr
+
+console.log(arr.splice(0, 3, 20))
+// remove the selected elements from the array
+// splice (starting, number of Elements to be Deleted, new elimients to ba added on deleted place)
+// reture the deleted elements
+
+console.log(arr)
+
+console.log(
+  arr.findIndex(i => {
+    return i === 8
+  })
+)
+
+console.log(arr.map(i => i + 2))
+
+console.log(
+  arr.filter(i => {
+    return i >= 14
+  })
+)
+
+console.log(arr)
+
