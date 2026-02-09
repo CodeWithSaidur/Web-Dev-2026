@@ -58,3 +58,20 @@ function Student(first_name, last_name, age, gender) { // use class insted const
 let stu1 = new Student('sabed', 'barbhuiyua', 25, 'M')
 
 console.log(stu1)
+
+
+
+function Student(name, cls, id, gen, fname, lname, fatherN) {
+  ;((this.name = name),
+    (this.cls = cls),
+    (this.id = id),
+    (this.gen = gen),
+    (this.fname = fname),
+    (this.lname = lname),
+    (this.fatherN = fatherN))
+}
+
+let stu1 = new Student('Tanvir', 10, 1, 'm', 'Tanvir', 'Ahmed', '')
+let stu2 = new Student('Sabed', 11, 2, 'm', 'sabdue', 'rohmab', '')
+
+console.log(stu2)
