@@ -1,4 +1,3 @@
-
 // intro object abd its importance
 
 let obj = {
@@ -9,8 +8,8 @@ let obj = {
   }
 }
 
-// console.log(obj['key1'])
-// console.log(obj.key1)
+console.log(obj['key1'])
+console.log(obj.key1)
 
 let stu = {
   first_name: 'Sabed',
@@ -23,8 +22,8 @@ let stu = {
   paper: ['DSA', 'Web D', 'JAVA', 'DBMS']
 }
 
-// console.log(stu.full_Name())
-// console.log(stu.paper[0]);
+console.log(stu.full_Name())
+console.log(stu.paper[0]);
 
 let car = {
   car_name: 'BMW',
@@ -35,3 +34,27 @@ let car = {
 
 console.log(Object.entries(car))
 
+let person = {
+  name: 'sabed',
+  age: 30,
+  city: 'HKD'
+}
+
+for (const i in person) {
+  const element = person[i]
+  console.log(element)
+}
+
+// Object Constructor Functions
+function Student(first_name, last_name, age, gender) { // use class insted constructure
+  return (
+    (this.first_name = first_name),
+    (this.last_name = last_name),
+    (this.age = age),
+    (this.gender = gender)
+  )
+}
+
+let stu1 = new Student('sabed', 'barbhuiyua', 25, 'M')
+
+console.log(stu1)
