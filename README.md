@@ -1,4 +1,4 @@
-https://app.eraser.io/workspace/iwba1ERmGCGzGjOoesex?origin=share
+[Eraser Link ☠️](https://app.eraser.io/workspace/iwba1ERmGCGzGjOoesex?origin=share)
 
 # Internet
 
