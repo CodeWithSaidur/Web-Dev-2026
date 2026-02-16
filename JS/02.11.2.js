@@ -37,7 +37,7 @@ let obj3 = {
     d2: 5
   }
 }
-let obj4 = { ...obj3 }
+let obj4 = { ...obj3 } // in case of nasted obj the spread operator (...obj) Doesnot work 
 obj4.d.d1 = 0
 console.log(obj3.d.d1)
 console.log(obj4.d.d1)
